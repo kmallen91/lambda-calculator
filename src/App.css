@@ -99,3 +99,10 @@
       display:flex;
       
   }
+
+  .number_button:nth-child(10){
+      border-radius:45%;
+      text-align:center;
+      padding-left: 100px;
+      padding-right:120px;
+  }
