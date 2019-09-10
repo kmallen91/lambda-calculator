@@ -5,9 +5,11 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    object-fit:cover;
 }
 .display {
     margin-top: 25px;
+    margin-left: 4%;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +21,88 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .logo-container{
+      margin:20px;
+  }
+
+  .operator_button{
+      color:white;
+      background-color:darkcyan;
+      font-size:2rem;
+      border-radius: 50%;
+      padding:30px;
+      margin:15px;
+      width:100px;
+      height:100px;
+
+
+  }
+
+  .operator_container{
+      display:flex;
+      flex-direction: column;
+      width:15%;
+      flex-wrap:wrap;
+      align-content: space-around;
+      margin:15px;
+  }
+
+  .number_button{
+      color:white;
+      background-color:navy;
+      font-size:2rem;
+      height:100px;
+      width:100px;
+      padding:30px;
+      margin:12px;
+      border-radius:50%;
+      text-align:center;
+      
+      
+  }
+
+  .number_container{
+      width: 100%;
+      padding-left: 10px;
+     
+  }
+
+  .special_button{
+      color:white;
+      background-color:dodgerblue;
+      width:100px;
+      height:100px;
+    font-size:2rem;
+    border-radius:50%;
+    padding:30px;
+    margin:1vh;
+
+
+  }
+
+  .special_container{
+      display:flex;
+      justify-content: space-evenly;
+      width:100%;
+      margin:20px 0px 5px 0px;
+  }
+
+  .bottom_buttons{
+      display:flex;
+      flex-wrap:wrap;
+      width:70%;
+  }
+  
+  .App{
+      display:flex;
+      
+  }
+
+  .number_button:nth-child(10){
+      border-radius:45%;
+      text-align:center;
+      padding-left: 100px;
+      padding-right:120px;
   }
